@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sea Battle</title>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<style type="text/css">
+		.bg {
+			background-color: white;
+		}
+		.errorblue {
+			background: white;
+		}
+		.errorcyan {
+			background: white;
+		}
+		.erroryel {
+			background: white;
+		}
+		.errorred {
+			background: white;
+		}
+		.error{
+			background: white;
+		}
+		body{
+			background-image: url(body.jpg);
+			background-size: cover;
+		}
+		.bg-NO{
+			background-color: none;
+			position: absolute;
+			left: 450px;
+			top: 8px;
+		}
+		.fortexts{
+			position: absolute;
+			left: ;
+
+		}
+	</style>
+	
+</head>
+<body class="">
+	<!-- это div-родитель -->
+	<div>
+		<h1 class="task fs-2">Морской Бой!</h1>
+		<h1 class="text-primary fs-2"> <span class="score">Корабль с 4 клетками - 3</span></h1>
+		<h1 class="text-info fs-2"> <span class="score">Корабль с 3 клетками - 3</span></h1>
+		<h1 class="text-warning fs-2"> <span class="score">Корабль с 2 клетками - 4</span></h1>
+		<h1 class="text-danger fs-2"> <span class="score">Корабль с 1 клетками - 4</span></h1>
+	</div>
+	<div class="col-7 bg-NO mx-auto">
+		<!-- Дивы с нумерацией 1, 2, 3 и т.д. -->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>1</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>2</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>3</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>4</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>5</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>6</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>7</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>8</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>9</h4>
+			</div>
+		</div>
+		<!--Линия А-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark bang errorblue">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark coin errorblue">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark meme errorblue">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark treasure errorblue">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark meme error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border border-dark coin error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border border-dark meme error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border border-dark meme error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border border-dark meme error">
+				
+			</div>
+		</div>
+		<!--Линия B-->
+		<div class="row">
+			<div class="col-1  px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark meme error">
+
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark meme error">
+			
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark coin error">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border border-dark meme error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bang bg border border-dark error">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border treasure border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+		</div>
+		<!--Линия C-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-secondary text-center border border-dark">
+				<h4>C</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border bang border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border treasure border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border coin border-dark error">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme border-dark errorcyan">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>	
+		</div>
+		<!--Линия D-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border coin border-dark erroryel">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border treasure border-dark error">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border bang border-dark errorcyan">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme border-dark errorred">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorred">
+				
+			</div>
+		</div>
+		<!--Линия E-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-4  bg border treasure border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border coin border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border bang border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4  bg border meme border-dark errorcyan">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+		</div>
+		<!--Линия F-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorcyan">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border treasure border-dark errorcyan">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorcyan">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin border-dark">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border bang border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorcyan">
+				
+			</div>
+		</div>
+		<!--Линия G-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>G</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border treasure border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border bang border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorcyan">
+				
+			</div>
+		</div>
+		<!--Линия H-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>H</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border treasure border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border bang border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorcyan">
+				
+			</div>
+		</div>
+		<!--Линия I-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>I</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border treasure border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border bang border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark erroryel">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+		</div>
+		<!--Линия J-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-secondary text-center border border-dark">
+				<h4>J</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorred">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border treasure border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border coin border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border bang border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorblue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark error">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border meme border-dark errorred">
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		// Есть treasure bang meme coin
+		
+		let errorblue = document.querySelectorAll(".errorblue")
+		let errorcyan = document.querySelectorAll(".errorcyan")
+		let erroryellow = document.querySelectorAll(".erroryel")
+		let errorred = document.querySelectorAll(".errorred")
+
+		for(let i=0;i<12;i++){
+			errorblue[i].onclick = function(){
+				errorblue[i].style.background = "blue"
+			}
+		}
+		for(let i=0;i<9;i++){
+			errorcyan[i].onclick = function(){
+				errorcyan[i].style.background = "cyan"
+			}
+		}
+		for(let i=0;i<8;i++){
+			erroryellow[i].onclick = function(){
+				erroryel[i].style.background = "yellow"
+			}
+		}
+		for(let i=0;i<4;i++){
+			errorred[i].onclick = function(){
+				errorred[i].style.background = "red"
+			}
+		}
+
+
+
+
+
+
+
+	</script>
+</body>
+</html>
+
+<script type="text/javascript">
+
+	
+
+</script>
